@@ -1,0 +1,42 @@
+$theme-colors: (
+"primary": #5B5F7C
+);
+
+$gray-100: white;
+
+$white: #C4C0BF;
+
+$gray-600: #404473;
+
+$border-color: black;
+
+.bg-login-image {
+  background: url('./img/AthenaLogin.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-register-image {
+  background: url('./img/AthenaLogin.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-password-image {
+  background: url('./img/AthenaLogin.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 670px;
+    height: 410px;
+  }
+
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "./scss/sb-admin-2.scss";
+@import "./scss/login";
